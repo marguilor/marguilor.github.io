@@ -1,6 +1,6 @@
 body{font-family: bebas neue;
 	background: rgb(235, 231, 235);
-	text-align : justify ;
+	text-align : center ;
 	background: linear-gradient(135deg,red,grey),
 	url ('background.jpg');}
 
@@ -10,14 +10,21 @@ p{font-weight : bold;
 font-size: 50px;
 text-align: center; position: relative; margin-top: 100px; }
 
-.btn {border: 10px solid #60495A; color: #60495A; font-size : 60px; padding: 15px; border-radius: 2px; background: white;}
-a.btn  {position: absolute; top : 550px; left: 20px;}
-a.dropdown {position: absolute; top: 450px; right: 20px;}
+.destinations {border: 10px solid #60495A; color: #60495A; font-size : 60px; padding: 15px; border-radius: 2px; background: white;}
+a.destinations  {position: relative; left: 100px;}
+.croisières {border: 10px solid #60495A; color: #60495A; font-size : 60px; padding: 15px; border-radius: 2px; background: white;}
+a.croisières  {position: relative; left: 100px;}
+.circuits {border: 10px solid #60495A; color: #60495A; font-size : 60px; padding: 15px; border-radius: 2px; background: white;}
+a.circuits  {position: relative ; left: 100px;}
+.dropdown {border: 10px solid #60495A; color: #60495A; font-size : 60px; padding: 15px; border-radius: 2px; background: white;}
+a.dropdown {position: relative; left: 100px;}
+
+div.navbar{display: flex; justify-content: space-between;}
+
+
+
 img.logo {width: 90px; height: 80px; position: absolute; top: 50px; left: 10px; border-radius:50%; box-shadow: 2px 2px 10px grey; }
 
-a{border: 10px;
-border-color: black;
-font-size: 70px;}
 
 h1{
 	color: #d5e7eb; 
@@ -41,3 +48,4 @@ a:hover {
 }
 footer{background-color: #A9ACA9;height: 50px; text-align: right;
 }
+button {width: 60px: height: 10px; position: relative; left: 50px; right: 100px; bottom: 0px;}
